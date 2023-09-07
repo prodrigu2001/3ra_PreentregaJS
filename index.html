@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta class="description" content="Somos un equipo de profesionales con mas de 15 años de trayectoria en organizaciones de eventos
+    privados y corporativo">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Codystar&family=Delius+Swash+Caps&family=Potta+One&family=Tilt+Neon&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Bs_Eventos - Contacto</title>
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <main>
+        <div class="banner-image-contactanos w-100 vh-100 d-flex justify-content-center align-items-center">
+            <div class="container">
+                <div class="formulario-contacto glass-effect">
+                    <form action="" class="form row justify-content-center" id="form" autocomplete="off">
+                        <div class="form-input nameInput col-6">
+                            <label for="nameInput" class="form-label"><b>Nombre</b></label>
+                            <input type="text" class="form-control" id="nameInput" placeholder="Nombre/s">
+                        </div>
+                        <div class="form-input surnameInput col-6">
+                            <label for="surnameInput" class="form-label"><b>Apellido</b></label>
+                            <input type="text" class="form-control surnameInput" id="surnameInput"
+                                placeholder="Apellido/s">
+                        </div>
+                        <div class="form-input emailInput col-6">
+                            <label for="emailInput" class="form-label"><b>Email</b></label>
+                            <input type="email" class="form-control emailInput" id="emailInput" placeholder="Email">
+                        </div>
+                        <div class="form-input cellInput col-6">
+                            <label for="cellImput" class="form-label"><b>Teléfono Celular</b></label>
+                            <input type="telephone" class="form-control cellInput" id="cellInput"
+                                placeholder="(Cód. de Area) sin el 15">
+                        </div>
+                        <div class="form-input dateInput col-6">
+                            <label for="dateImput" class="form-label"><b>Mes de Paternidad</b></label>
+                            <input type="date" class="form-control dateInput" id="dateInput"
+                                placeholder="Mes Paternidad">
+                        </div>
+                        <div class="form-input numInput col-6">
+                            <label for="numImput" class="form-label"><b>A cuántos queres invitar?</b></label>
+                            <input type="number" class="form-control numInput" id="guestInput"
+                                placeholder="Número Invitados">
+                        </div>
+                        <div class="form-input zoneInput col-6">
+                            <label for="zoneImput" class="form-label"><b>Dónde queres festejar?</b></label>
+                            <input type="text" class="form-control zoneInput" id="zoneInput" placeholder="Zona AMBA">
+                        </div>
+                        <div class="form-input placeInput col-6">
+                            <label for="placeInput" class="form-label"><b>Contás con Parrilla?</b></label>
+                            <select class="form-select" id="placeInput" aria-label="Default select example">
+                                <option value="0">Elije una opción</option>
+                                <option value="Sí">Sí</option>
+                                <option value="No">No</option>
+                            </select>
+                        </div>
+                        <div class="d-grid gap-2 pt-3 pb-4">
+                            <button class="btn btn-primary" type="button" id="registrar-btn">Registrar</button>
+                            <button class="btn btn-dark" type="button" id="borrar-btn">Borrar</button>
+                        </div>
+                    </form>
+                    <div class="container">
+                        <table class="table" id="tabla">
+                            <thead class="thead-inverse bg-dark text-light">
+                                <tr>
+                                    <th>Nombre</th>
+                                    <th>Apellido</th>
+                                    <th>Email</th>
+                                    <th>Teléfono</th>
+                                    <th>Fecha</th>
+                                    <th>Invitados</th>
+                                    <th>Zona</th>
+                                    <th>Parrilla</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody id="listInput">
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+    </main>
+
+    <footer class="bg-light text-dark pt-5 pb-4">
+        <div class="container-fluid text-center text-md-start">
+            <div class="row text-center text-md-start">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary"> Nosotros </h5>
+                    <hr class="mb-4">
+                    <p> Somos un equipo de profesionales con mas de 15 años de trayectoria en organizaciones de eventos
+                        privados y corporativos. Una amplia cartera de Clientes respalda la confianza en nuestro
+                        servicio y son la base de un constante crecimiento.
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary"> Enlaces </h5>
+                    <hr class="mb-4">
+                    <p>
+                        <a href="../index.html" class="text-dark">Eventos realizados</a>
+                    </p>
+                    <p>
+                        <a href="../index.html" class="text-dark">Comentarios</a>
+                    </p>
+                    <p>
+                        <a href="../index.html" class="text-dark">Mapa del Sitio</a>
+                    </p>
+                    <p>
+                        <a href="../index.html" class="text-dark">Ayuda</a>
+                    </p>
+                    <p>
+                        <a href="../index.html" class="text-dark">Inicio</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-primary"> Contacto </h5>
+                    <hr class="mb-4">
+                    <p>
+                        <li class="fas fa-home me-2"></li>C.A.B.A. - Argentina
+                    </p>
+                    <p>
+                        <li class="fas fa-envelope me-2"></li>bscorreo@mail.com
+                    </p>
+                    <p>
+                        <li class="fas fa-phone me-2"></li> (5411) 5555-5555
+                    </p>
+                </div>
+                <hr class="mb-4">
+                <div class="text-center mb-2">
+                    <p>
+                        Copyright © 2023 BS. Todos los Derechos Reservados
+                    </p>
+                </div>
+                <div class="text-center">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <a href="https:/facebook.com" target="_blank" class="text-dark">
+                                <i class="fab fa-facebook">
+                                </i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https:/twitter.com" target="_blank" class="text-dark">
+                                <i class="fab fa-twitter">
+                                </i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https:/instagram.com" target="_blank" class="text-dark">
+                                <i class="fab fa-instagram">
+                                </i>
+                            </a>
+                        </li>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https:/youtube.com" target="_blank" class="text-dark">
+                                <i class="fab fa-youtube">
+                                </i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
